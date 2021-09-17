@@ -23,7 +23,6 @@ Markos-Malek
      - CSS
      - Javascript **dynamically added**
         
-
 ## Dependances
 
 This project has no dependances it works directlly in the browser no instolation of any kind is needed to run it just download the files and you are good to go.
