@@ -1,6 +1,6 @@
 # Landing page roject
 
-1. Table of contents
+- Table of contents
     1. Project Title
     2. Table of contents
     3. Discription
@@ -13,7 +13,7 @@
 First project of the udacity web-development profissonal track, dynamic creation of menu-links that scrolls to the corresponding part of the page.
 Only using javaScript hice **Dynamic**
 
-## outher
+## outhers
 [Udacity](www.udacity.com) , 
 Markos-Malek
 
