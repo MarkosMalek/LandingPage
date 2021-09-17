@@ -12,6 +12,10 @@ const dimentions = [];
 sections.forEach((section) => {
   dimentions.push(section.getBoundingClientRect());
 });
+//btn to scroll to the top
+const btn = document.querySelector("button");
+//extract the title section
+const titleSection = document.getElementsByClassName("main__hero");
 
 //@helping fuctions
 
@@ -23,6 +27,18 @@ const setActive = () => {
   });
   //add active class
   activeSection.classList.add("your-active-class");
+  //remove active class from every link
+  //extract all links
+  const links = document.querySelectorAll("li");
+  links.forEach((link) => {
+    link.classList.remove("your-active-class");
+  });
+  const activeLinkText = activeSection.getAttribute("data-nav");
+  links.forEach((link) => {
+    if (link.innerText === activeLinkText) {
+      link.classList.add("your-active-class");
+    }
+  });
 };
 
 //@main functionality
@@ -38,7 +54,7 @@ for (let i = 0; i < sections.length; i++) {
   newline.addEventListener("click", (e) => {
     e.preventDefault();
     //scroll to the section clicked
-    sections[i].scrollIntoView({ behavior: "smooth", block: "center" });
+    sections[i].scrollIntoView({ behavior: "smooth", block: "start" });
     //set active section
     activeSection = sections[i];
     setActive();
@@ -57,13 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
-//btn scroll to the top functionality
-const btn = document.querySelector("button");
-const titleSection = document.getElementsByClassName("main__hero");
 
+//adding event listner to the up buttom
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   activeSection = titleSection[0];
   setActive();
   titleSection[0].scrollIntoView({ behavior: "smooth", block: "center" });
 });
+
