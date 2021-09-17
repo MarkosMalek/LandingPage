@@ -21,7 +21,7 @@ Markos-Malek
 - basic:
     - HTML
      - CSS
-     - Javascript **dinamicly added**
+     - Javascript **dynamically added**
         
 
 ## Dependances
