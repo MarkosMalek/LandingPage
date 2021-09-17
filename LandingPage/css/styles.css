@@ -97,6 +97,7 @@ section {
   position: fixed;
   top: 0;
   width: 100%;
+  left: 0;
   z-index: 1;
 }
 
@@ -233,6 +234,12 @@ section.your-active-class .landing__container::after {
   to {
     transform: rotate(360deg) translate(-1em) rotate(-360deg);
   }
+}
+/*set active link styles*/
+li.your-active-class {
+  background: rgb(139, 49, 49);
+  transition: ease 0.3s all;
+  cursor: pointer;
 }
 
 .btn {
