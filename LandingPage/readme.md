@@ -1,14 +1,12 @@
-## Project Title
+# Landing page roject
 
-# Landing page
-
-Table of contents
-1.Project Title
 1.Table of contents
-1.Discription
-1.outher
-1.Usage
-1.Dependances
+    1.Project Title
+    1.Table of contents
+    1.Discription
+    1.outher
+    1.Usage
+    1.Dependances
 
 ## Discription
 
