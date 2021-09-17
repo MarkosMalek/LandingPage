@@ -1,12 +1,12 @@
 # Landing page roject
 
-1.Table of contents
-    1.Project Title
-    2.Table of contents
-    3.Discription
-    4.outher
-    5.Usage
-    6.Dependances
+1. Table of contents
+    1. Project Title
+    2. Table of contents
+    3. Discription
+    4. outher
+    5. Usage
+    6. Dependances
 
 ## Discription
 
@@ -14,14 +14,14 @@ First project of the udacity web-development profissonal track, dynamic creation
 Only using javaScript hice **Dynamic**
 
 ## outher
-[Udacity](www.udacity.com) .
+[Udacity](www.udacity.com) , 
 Markos-Malek
 
 ## Usage
-- basic
-    - html
-     - css
-     - javascript **dinamicly**
+- basic:
+    - HTML
+     - CSS
+     - Javascript **dinamicly added**
         
 
 ## Dependances
