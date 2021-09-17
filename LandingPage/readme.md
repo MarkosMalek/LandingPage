@@ -14,15 +14,15 @@ First project of the udacity web-development profissonal track, dynamic creation
 Only using javaScript hice **Dynamic**
 
 ## outher
-[Udacity](www.udacity.com)
-[Markos-Malek](markosmalek3@gmail.com)
+[Udacity](www.udacity.com) .
+Markos-Malek
 
 ## Usage
-
-    - basic
-        - html
-        - css
-        - javascript **dinamicly**
+- basic
+    - html
+     - css
+     - javascript **dinamicly**
+        
 
 ## Dependances
 
